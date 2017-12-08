@@ -3,7 +3,7 @@
 
 @implementation NSObject (JSON)
 
-- (NSData *)hr_JSONData {
+- (NSData *)HR_JSONData {
     NSError *error = nil;
     id result = [NSJSONSerialization dataWithJSONObject:self
                                                 options:kNilOptions error:&error];
@@ -12,8 +12,8 @@
     return result;
 }
 
-- (NSString *)hr_JSONString {
-    return [[NSString alloc] initWithData:[self hr_JSONData]
+- (NSString *)HR_JSONString {
+    return [[NSString alloc] initWithData:[self HR_JSONData]
                                  encoding:NSUTF8StringEncoding];
 }
 

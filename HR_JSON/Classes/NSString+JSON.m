@@ -4,12 +4,12 @@
 
 @implementation NSString (JSON)
 
-- (NSData *)hr_JSONData {
+- (NSData *)HR_JSONData {
     return [self dataUsingEncoding:NSASCIIStringEncoding];
 }
 
-- (NSArray *)hr_JSONArray {
-    NSData *jsonData = [self hr_JSONData];
+- (NSArray *)HR_JSONArray {
+    NSData *jsonData = [self HR_JSONData];
     NSError *error = nil;
     NSArray *jsonArr = [NSJSONSerialization JSONObjectWithData:jsonData
                                                     options:NSJSONReadingAllowFragments
@@ -21,8 +21,8 @@
     }
 }
 
-- (NSDictionary *)hr_JSONDictionary {
-    NSData *jsonData = [self hr_JSONData];
+- (NSDictionary *)HR_JSONDictionary {
+    NSData *jsonData = [self HR_JSONData];
     NSError *error = nil;
     NSDictionary *jsonDic = [NSJSONSerialization JSONObjectWithData:jsonData
                                                        options:NSJSONReadingAllowFragments

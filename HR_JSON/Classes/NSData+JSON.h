@@ -6,16 +6,16 @@
 /**
  NSData -> NSString
  */
-- (NSString *)hr_JSONString;
+- (NSString *)HR_JSONString;
 
 /**
  NSData -> NSArray
  */
-- (NSArray *)hr_JSONArray;
+- (NSArray *)HR_JSONArray;
 
 /**
  NSData -> NSDictionary
  */
-- (NSDictionary *)hr_JSONDictionary;
+- (NSDictionary *)HR_JSONDictionary;
 
 @end

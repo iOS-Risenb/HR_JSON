@@ -3,7 +3,7 @@
 
 @implementation NSDictionary (JSON)
 
-- (NSData *)hr_JSONData {
+- (NSData *)HR_JSONData {
     NSError *error = nil;
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:self
                                                        options:NSJSONWritingPrettyPrinted
@@ -11,8 +11,8 @@
     return ([jsonData length] > 0 && !error) ? jsonData : nil;
 }
 
-- (NSString *)hr_JSONString {
-    return [[NSString alloc] initWithData:[self hr_JSONData]
+- (NSString *)HR_JSONString {
+    return [[NSString alloc] initWithData:[self HR_JSONData]
                                  encoding:NSUTF8StringEncoding];
 }
 

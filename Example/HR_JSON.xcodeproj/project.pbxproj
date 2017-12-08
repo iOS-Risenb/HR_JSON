@@ -58,13 +58,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6603D8BA0CCB7ADE2220FE98 /* HR_JSON.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HR_JSON.podspec; path = ../HR_JSON.podspec; sourceTree = "<group>"; };
+		6603D8BA0CCB7ADE2220FE98 /* HR_JSON.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HR_JSON.podspec; path = ../HR_JSON.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		790D973707745BDCAEE359EC /* Pods-HR_JSON_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HR_JSON_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HR_JSON_Tests/Pods-HR_JSON_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7D9894526848FA64FD654D0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7D9894526848FA64FD654D0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBD332C3DFA8A2425B5BFD57 /* Pods-HR_JSON_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HR_JSON_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HR_JSON_Tests/Pods-HR_JSON_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D02BDE73D5B8DBEEC6B9EE32 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D02BDE73D5B8DBEEC6B9EE32 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D6500ECFA1F44793758AAAFE /* Pods_HR_JSON_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HR_JSON_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0D431158FA3E4819D03DD8 /* Pods-HR_JSON_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HR_JSON_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HR_JSON_Example/Pods-HR_JSON_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -536,6 +536,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HR_JSON/HR_JSON-Prefix.pch";
 				INFOPLIST_FILE = "HR_JSON/HR_JSON-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -551,6 +552,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HR_JSON/HR_JSON-Prefix.pch";
 				INFOPLIST_FILE = "HR_JSON/HR_JSON-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

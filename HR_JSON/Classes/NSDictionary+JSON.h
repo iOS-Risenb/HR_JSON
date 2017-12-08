@@ -7,11 +7,11 @@
 /**
  NSDictionary 转 NSData
  */
-- (NSData *)hr_JSONData;
+- (NSData *)HR_JSONData;
 
 /**
  NSDictionary 转 NSString
  */
-- (NSString *)hr_JSONString;
+- (NSString *)HR_JSONString;
 
 @end

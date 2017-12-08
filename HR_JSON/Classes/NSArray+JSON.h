@@ -6,11 +6,11 @@
 /**
  NSArray 转 NSData
  */
-- (NSData *)hr_JSONData;
+- (NSData *)HR_JSONData;
 
 /**
  NSArray 转 NSString
  */
-- (NSString *)hr_JSONString;
+- (NSString *)HR_JSONString;
 
 @end

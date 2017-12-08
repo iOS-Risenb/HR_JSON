@@ -7,11 +7,11 @@
 /**
  NSObject -> NSData
  */
-- (NSData *)hr_JSONData;
+- (NSData *)HR_JSONData;
 
 /**
  NSObject -> NSString
  */
-- (NSString *)hr_JSONString;
+- (NSString *)HR_JSONString;
 
 @end
