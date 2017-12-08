@@ -1,0 +1,6 @@
+framework module HR_JSON {
+  umbrella header "HR_JSON-umbrella.h"
+
+  export *
+  module * { export * }
+}
