@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HR_JSON_Example' do
+  pod 'HR_JSON', :path => '../'
+
+  target 'HR_JSON_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
